@@ -13,7 +13,7 @@ from flask import Flask, render_template, request
 app = Flask(__name__, template_folder='templates')
 
 
-hotel = pd.read_csv("nusatripfix1.csv", header=0)
+hotel = pd.read_csv("nusatripfix.csv", header=0)
 #preprocessing
 
 
